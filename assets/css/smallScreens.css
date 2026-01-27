@@ -1,0 +1,280 @@
+@media (max-width: 639px) {
+    .nav-content {
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding: 14px 16px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-listttt,
+    .nav-btn {
+        display: none !important;
+    }
+
+    .nav-content a p {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .menu-toggle {
+        margin-left: auto;
+        font-size: 24px;
+        color: #fff;
+    }
+
+    .nav-container.menu-open .nav-listttt,
+    .nav-container.menu-open .nav-btn {
+        display: block !important;
+    }
+
+    .nav-container.menu-open .nav-listttt ul {
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 16px;
+    }
+
+    .nav-container.menu-open .nav-btn {
+        margin-top: 12px;
+    }
+
+    .nav-container.menu-open .nav-content {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #202c3c;
+        border-radius: 20px;
+    }
+
+    /*---------------------------intro---------------------------*/
+    .intro {
+        padding-top: 80px;
+        padding-bottom: 96px;
+    }
+
+    .intro-content {
+        margin: 0;
+    }
+
+    .text-deve {
+        display: inline;
+    }
+
+    .front-size {
+        font-size: 3rem;
+    }
+
+    .intro-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-section h1 {
+        margin-top: 16px !important;
+    }
+
+    .second-section {
+        width: 100%;
+    }
+
+    .intro-bottom h1 {
+        display: none;
+    }
+
+    .intro-bottom p:first-child {
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+    .intro-contact {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* .Ebtn .copyText {
+        font-size: 12px;
+    } */
+
+    .copyEmailBtn {
+        width: 170px;
+        transition: width 0.3s ease, transform 0.3s ease;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .copyEmailBtn.expand {
+        width: 220px;
+        /* يكفي Email Copied! */
+        transform: scale(1.05);
+    }
+
+    /*---------------------------About---------------------------*/
+    /* .aboutMe-content {
+        margin: 0;
+    }
+
+    .Abody {
+        display: flex;
+        flex-direction: column;
+        gap: 32px !important;
+    }
+
+    .paraText p {
+        text-align: justify;
+    }
+
+    .firstp,
+    .secp {
+        font-size: 16px;
+    } */
+    .aboutMe-content {
+        margin: 0;
+        padding: 0 16px;
+    }
+
+    .about-info {
+        flex-direction: column-reverse;
+        gap: 32px;
+    }
+
+    .about-left {
+        width: 100%;
+        gap: 24px;
+    }
+
+    .about-right {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .MyImage {
+        width: 210px;
+        height: 210px;
+    }
+
+    .NameTxt {
+        font-size: 28px;
+        /* text-align: center; */
+    }
+
+    .CVbtn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .paraText p {
+        text-align: justify;
+    }
+
+    .firstp,
+    .secp {
+        font-size: 16px;
+    }
+
+    /*---------------------------Tech---------------------------*/
+    .tech-content {
+        margin: 0;
+    }
+
+     .frontend-heading > div,
+    .database-heading > div {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    /* title block */
+    .title-block {
+        display: flex;
+        flex-direction: row !important;
+        gap: 10px;
+    }
+
+    .title-line {
+        width: 3px;
+        height: 32px;
+        flex-shrink: 0; 
+    }
+
+    .heading-title {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .title-sub {
+        font-size: 11px;
+        letter-spacing: 1.1px;
+    }
+
+    /* tech list */
+    .tech-list {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .inner-list {
+        height: 34px;
+        min-width: auto;
+        padding: 4px 12px;
+        gap: 6px;
+    }
+
+    .list-text {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    .inner-list img {
+        width: 16px;
+        height: 16px;
+    }
+
+    /*---------------------------projects---------------------------*/
+    .projects-content {
+        margin: 0;
+    }
+
+    .projects-list>li {
+        width: 100% !important;
+    }
+
+    /*---------------------------experience---------------------------*/
+    .experience-content {
+        margin: 0;
+    }
+
+    .first-card {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .timeline-line {
+        display: none;
+    }
+
+    .left-side {
+        width: 100% !important;
+        gap: 12px;
+        justify-content: flex-start;
+    }
+
+    .right-side {
+        width: 100% !important;
+        padding: 0;
+    }
+
+    .job-list p {
+        font-size: 15px;
+        line-height: 1.6;
+        color: #cccccc;
+    }
+
+    .job-list ul {
+        display: none;
+    }
+
+    .right-side {
+        padding: 0 !important;
+    }
+}

@@ -1,0 +1,71 @@
+/*----------------------------------for each individual project----------------------------------*/
+
+.project-links a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* See Demo */
+.demo-btn {
+    background-color: #a2e773;
+    color: #0b0f14;
+}
+
+/* Source Code */
+.code-btn {
+    /* background-color: #0b0f14; */
+    color: #ffffff;
+    border: 1px solid #354c65;
+}
+
+.text-style{
+    color: #cccccc;
+    line-height: 2;
+}
+
+.sub-title{
+    font-size: 20px;
+}
+
+@media (max-width: 639px) {
+    .body-content{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .projects-content{
+        margin: 0;
+    }
+}
+
+/*----------------------------------for all projects page----------------------------------*/
+.projectss{
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+
+
+.AboutMe{
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+.downBtn {
+    display: inline-flex;   /* يخليه على قد المحتوى */
+    width: fit-content;     /* تأكيد */
+}
+
+.paraText p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.date-text{
+    text-transform: uppercase;
+    color: #cccccc;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.Acontent{
+    margin-bottom: 20px;
+}

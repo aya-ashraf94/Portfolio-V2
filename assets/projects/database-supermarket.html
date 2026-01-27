@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperMarket Project</title>
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/smallScreens.css">
+    <link rel="stylesheet" href="../css/tabletScreen.css">
+</head>
+
+<div class="contact-overlay" id="contactOverlay">
+    <div class="contact-panel d-flex flex-column align-items-center justify-content-center" id="contactPanel">
+        <h3>Contact Me</h3>
+        <p>
+            <i class="bi bi-envelope"></i>
+            ayaashraff160@gmail.com
+        </p>
+        <p>
+            <i class="bi bi-telephone"></i>
+            +20 121 235 1645
+        </p>
+    </div>
+</div>
+
+<body>
+    <div class="My-container">
+        <!--nav-->
+        <!-- <div class="nav-container position-fixed z-3 px-4 w-100">
+            <div class="nav-content d-flex justify-content-between">
+                <a class="d-flex align-items-center" href="index.html">
+                    <p class="font-medium mb-0">AyaPortfolio</p>
+                </a>
+                <div class="d-flex align-items-center main-content">
+                    <nav>
+                        <ul class="d-flex gap-1 items-center">
+                            <li>
+                                <a class="secword font-medium px-3 py-2" href="../../index.html">Home</a>
+                            </li>
+                            <li>
+                                <a class="firstword font-medium px-3 py-2" href="#">Projects</a>
+                            </li>
+                            <li>
+                                <a class="thirdword font-medium px-3 py-2" href="#about">About Me</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="nav-btn">
+                    <button class="Cbtn px-3 py-1 border-0 rounded-pill font-medium">Contact Me</button>
+                </div>
+            </div>
+        </div> -->
+        <div class="nav-container position-fixed z-3 px-4 w-100">
+            <div class="nav-content d-flex justify-content-between">
+                <a href="index.html" class="logo-aya">
+                    <svg width="50" height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M46 22 L71 82 H61 L54 64 H38 L31 82 H21 ZM42 56 H50 L46 44 Z" fill="#a2e773"
+                            opacity="0.9" />
+                        <path d="M52 20 L77 80 H67 L60 62 H44 L37 80 H27 ZM48 54 H56 L52 42 Z" fill="#e5e7eb"
+                            transform="translate(11 -5)" />
+                    </svg>
+                </a>
+                <!-- <a class="d-flex align-items-center" href="../../index.html">
+                    <p class="font-medium mb-0">AyaPortfolio</p>
+                </a> -->
+                <!-- Menu Button (Mobile) -->
+                <button class="menu-toggle d-md-none">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="d-flex align-items-center main-content">
+                    <nav class="nav-listttt">
+                        <ul class="d-flex gap-1 items-center">
+                            <li>
+                                <a class="secword font-medium px-3 py-2" href="../../index.html">Home</a>
+                            </li>
+                            <li>
+                                <a class="firstword font-medium px-3 py-2" href="../../projects.html">Projects</a>
+                            </li>
+                            <li>
+                                <a class="thirdword font-medium px-3 py-2" href="../../about.html">About Me</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="nav-btn">
+                    <button
+                        class="Cbtn d-flex justify-content-center align-items-center gap-2 px-4 border-0 rounded-pill font-medium fs-6"><i
+                            class="bi bi-send"></i>Contact Me</button>
+                    <!-- <button class="Cbtn px-3 py-1 border-0 rounded-pill font-medium">Contact Me</button> -->
+                    <!-- <button class="btn-contact px-3 py-1 font-medium">Contact Me</button> -->
+                </div>
+            </div>
+        </div>
+        <div class="body-content">
+            <section class="individual-project" id="pro">
+                <div class="projects-content mb-5 pt-2">
+                    <div class="all-project-btn d-flex justify-content-start">
+                        <a class="all-project-link d-flex align-items-center justify-content-center px-3 gap-2 rounded-pill font-medium"
+                            href="../../projects.html"><i class="bi bi-arrow-left"></i>All Projects</a>
+                    </div>
+                    <div class="projContent d-flex flex-column gap-3 fs-4 mb-5 pt-4">
+                        <h3 class="d-flex align-items-center gap-4 fs-2"><i class="fas fa-laptop-code logo"></i>WinForm
+                            Application
+                        </h3>
+                        <p class="sub-title">A WinForms-based Super Market Management System that uses a database to
+                            efficiently manage products and other supermarket operations.</p>
+                        <div class="proTech d-flex gap-2">
+                            <div class="icon-tech d-flex gap-1 align-items-center px-2 rounded-pill">
+                                <img src="../imgs/c-sharp.png" alt="html icon" width="18" height="18">
+                                <span class="textTech font-medium">C#</span>
+                            </div>
+                            <div class="icon-tech d-flex gap-1 align-items-center px-2 rounded-pill">
+                                <img src="../imgs/database.png" alt="css icon" width="18" height="18">
+                                <span class="textTech font-medium">SQL</span>
+                            </div>
+                            <div class="icon-tech d-flex gap-1 align-items-center px-2 rounded-pill">
+                                <img src="../imgs/icons8-visual-studio-48.png" alt="js icon" width="18" height="18">
+                                <span class="textTech font-medium">Visual Studio</span>
+                            </div>
+                            <div class="icon-tech d-flex gap-1 align-items-center px-2 rounded-pill">
+                                <!-- <img src="assets/imgs/icons8-bootstrap-logo-48.png" alt="html icon"
+                                                    width="18" height="18"> -->
+                                <span class="textTech font-medium">EF Core</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="0" class="active" aria-current="true"
+                                        aria-label="Slide 1"></button>
+
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="5" aria-label="Slide 6"></button>
+
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="6" aria-label="Slide 7"></button>
+
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="7" aria-label="Slide 8"></button>
+
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="8" aria-label="Slide 9"></button>
+                                </div>
+                            </div>
+                            <div class="carousel-inner rounded-4">
+                                <div class="carousel-item active">
+                                    <img src="../imgs/winForm-1.png" class="d-block w-100" alt="Home page">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imgs/winForm-2.png" class="d-block w-100" alt="Content page">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imgs/winForm-3.png" class="d-block w-100" alt="Tasks">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imgs/winForm-4.png" class="d-block w-100" alt="Services">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imgs/winForm-5.png" class="d-block w-100" alt="Services">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imgs/winForm-6.png" class="d-block w-100" alt="Services">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imgs/winForm-7.png" class="d-block w-100" alt="Services">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imgs/winForm-8.png" class="d-block w-100" alt="Services">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imgs/winForm-9.jpeg" class="d-block w-100" alt="Services">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-links d-flex justify-content-center gap-3 my-4">
+                        <!-- <a href="https://aya-ashraf94.github.io/Task-Manager/" target="_blank"
+                            class="demo-btn d-flex align-items-center gap-2 px-4 py-2 rounded-pill">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            <span>See Demo</span>
+                        </a> -->
+                        <a href="https://github.com/aya-ashraf94/Database-GUI-Supermarket-WinForm" target="_blank"
+                            class="code-btn d-flex align-items-center gap-2 px-4 py-2 rounded-pill">
+                            <i class="fa-brands fa-github"></i>
+                            <span>Source Code</span>
+                        </a>
+                    </div>
+                    <div class="project-overview">
+                        <div class="my-5">
+                            <h3 class="my-3">Project Overview</h3>
+                            <p class="text-style text-justify">The Super Market Management System is a Windows Forms
+                                (WinForms)
+                                desktop application developed to manage supermarket operations efficiently using a
+                                connected database.
+                                The system provides a user-friendly interface that allows administrators and staff to
+                                manage product data and other supermarket entities in an organized and centralized way.
+
+                                The application enables users to view, search, add, update, and delete product records
+                                directly from the database. It is designed to improve accuracy, reduce manual work, and
+                                ensure smooth management of supermarket data such as products, customers, stock,
+                                payments, suppliers, departments, and employees.</p>
+                        </div>
+                        <div class="my-5">
+                            <h3 class="my-3">Key Features</h3>
+                            <ul class="text-style">
+                                <li>Product Management
+                                    <ul>
+                                        <li>Display all products in a structured data grid.</li>
+                                        <li>Add new products with details such as Product ID, Name, Class ID, Price,
+                                            Brand, Status, Expiry Date, Department ID, and Quantity.</li>
+                                        <li>Update existing product information.</li>
+                                        <li>Delete products from the database.</li>
+                                    </ul>
+                                </li>
+                                <li>Search Functionality
+                                    <ul>
+                                        <li>Search for products quickly using the search bar.</li>
+                                    </ul>
+                                </li>
+                                <li>Database Integration
+                                    <ul>
+                                        <li>All data is stored and retrieved from a database, ensuring data consistency
+                                            and reliability.</li>
+                                    </ul>
+                                </li>
+                                <li>User-Friendly Interface
+                                    <ul>
+                                        <li>Simple and clear WinForms UI for easy navigation.</li>
+                                        <li>Side menu for quick access to different modules (Product, Customer, Stock,
+                                            Payment, Department, Suppliers, Employee).</li>
+                                    </ul>
+                                </li>
+                                <li>Data Validation
+                                    <ul>
+                                        <li>Ensures correct input when adding or updating product information.</li>
+                                    </ul>
+                                </li>
+                                <li>Efficient Data Handling
+                                    <ul>
+                                        <li>Load and refresh data easily using the Load button.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="my-5">
+                            <h3 class="my-3">My Role</h3>
+                            <p class="text-style mb-3">I was responsible for developing most parts of the Super Market
+                                Management System.
+                                My role included designing and implementing the WinForms user interface, connecting the
+                                application to the database, and handling core functionalities such as adding, updating,
+                                deleting, searching, and displaying product data.
+
+                                I also worked on organizing the system modules, ensuring smooth data flow between the UI
+                                and the database, and improving the overall usability of the application.
+                            </p>
+                        </div>
+                        <!-- <div class="my-5">
+                            <h3 class="my-3">Challenges & Solutions</h3>
+                            <p class="text-style mb-3">One of the main challenges was handling dynamic task updates
+                                (add, edit, delete) efficiently using JavaScript.
+                                This was solved by organizing the code into clear functions and using DOM manipulation
+                                properly.</p>
+                        </div> -->
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!--footer-->
+        <footer class="px-3">
+            <div class="d-flex flex-column align-items-center">
+                <div class="footer-content">
+                    <div class="footer-txt">Let's Work Together</div>
+                </div>
+                <div class="footer-btns d-flex gap-3">
+                    <button
+                        class="Cbtn d-flex justify-content-center align-items-center gap-2 px-4 border-0 rounded-pill font-medium fs-6"><i
+                            class="bi bi-send"></i>Contact Me</button>
+                    <button
+                        class="copyEmailBtn Ebtn d-flex justify-content-center align-items-center gap-2 px-4 border-0 rounded-pill font-medium fs-6">
+                        <i class="bi bi-files copyIcon"></i><span class="copyText">Copy Email</span></button>
+                </div>
+                <div class="social-icons1">
+                    <div class="icons-content d-flex gap-2">
+                        <a class="d-flex justify-content-center align-items-center gap-2"
+                            href="https://github.com/aya-ashraf94" target="_blank"><i
+                                class="fa-brands fa-github fs-3"></i></a>
+                        <a class="d-flex justify-content-center align-items-center gap-2"
+                            href="http://linkedin.com/in/aya-ashraf-8aa056285" target="_blank"><i
+                                class="fa-brands fa-linkedin fs-3"></i></i></a>
+                        <a class="d-flex justify-content-center align-items-center gap-2"
+                            href="https://www.instagram.com/__aya.ashraf__?igsh=MTB3ZGF1b3BqbGk5dA%3D%3D&utm_source=qr"
+                            target="_blank"><i class="fa-brands fa-instagram fs-3"></i></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <button id="backToTop" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

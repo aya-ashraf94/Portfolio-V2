@@ -1,0 +1,337 @@
+@media (max-width: 767px) {
+    .nav-content {
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding: 14px 16px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-listttt,
+    .nav-btn {
+        display: none !important;
+    }
+
+    .nav-content a p {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .menu-toggle {
+        margin-left: auto;
+        font-size: 24px;
+        color: #fff;
+    }
+
+    .nav-container.menu-open .nav-listttt,
+    .nav-container.menu-open .nav-btn {
+        display: block !important;
+    }
+
+    .nav-container.menu-open .nav-listttt ul {
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 16px;
+    }
+
+    .nav-container.menu-open .nav-btn {
+        margin-top: 12px;
+    }
+
+    .nav-container.menu-open .nav-content {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #202c3c;
+        border-radius: 20px;
+    }
+
+    /*---------------------------intro---------------------------*/
+    .intro-content {
+        margin: 0;
+    }
+
+    .text-deve {
+        display: block;
+    }
+
+    .front-size {
+        font-size: 3.75rem;
+    }
+
+    .intro-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-section h1 {
+        margin-top: 16px !important;
+    }
+
+    .intro-bottom h1 {
+        display: none;
+    }
+
+    .intro-bottom p:first-child {
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+    /*---------------------------About---------------------------*/
+    /* .aboutMe-content {
+        margin: 0;
+    }
+
+    .Abody {
+        display: flex;
+        flex-direction: column;
+        gap: 32px !important;
+    }
+
+    .paraText p {
+        text-align: justify;
+    }
+
+    .firstp,
+    .secp {
+        font-size: 16px;
+    } */
+.aboutMe-content {
+        margin: 0;
+        padding: 0 16px;
+    }
+
+    .about-info {
+        flex-direction: column-reverse;
+        gap: 32px;
+    }
+
+    .about-left {
+        width: 100%;
+        gap: 24px;
+    }
+
+    .about-right {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .MyImage {
+        width: 210px;
+        height: 210px;
+    }
+
+    .NameTxt {
+        font-size: 28px;
+        /* text-align: center; */
+    }
+
+    .CVbtn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .paraText p {
+        text-align: justify;
+    }
+
+    .firstp,
+    .secp {
+        font-size: 16px;
+    }
+    /*---------------------------Tech---------------------------*/
+    .tech-content {
+        margin: 0;
+    }
+
+    .frontend-heading div,
+    .database-heading div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* title block */
+    .title-block {
+        display: flex;
+        flex-direction: row !important;
+        gap: 10px;
+    }
+
+    .title-line {
+        width: 3px;
+        height: 32px;
+        flex-shrink: 0; 
+    }
+
+    .heading-title {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .title-sub {
+        font-size: 13px;
+        letter-spacing: 1.1px;
+    }
+
+    .tech-list {
+        width: 100%;
+    }
+
+    .inner-list {
+        width: auto;
+        height: 42px;
+        width: 125px;
+        padding: 4px 10px;
+        gap: 6px;
+    }
+
+    .list-text {
+        font-size: 18px;
+    }
+
+    .inner-list img {
+        width: 16px;
+        height: 16px;
+    }
+
+    /*---------------------------projects---------------------------*/
+    .projects-content {
+        margin: 0;
+    }
+
+    .projects-list>li {
+        width: 50%;
+    }
+
+    /*---------------------------experience---------------------------*/
+    .experience-content {
+        margin: 0;
+    }
+
+    .first-card {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .timeline-line {
+        display: none;
+    }
+
+    .left-side {
+        width: 100% !important;
+        gap: 12px;
+        justify-content: flex-start;
+    }
+
+    .right-side {
+        width: 100% !important;
+        padding: 0;
+    }
+
+    .right-side {
+        padding: 0 !important;
+    }
+
+    .job-list p {
+        font-size: 15px;
+        line-height: 1.6;
+        color: #cccccc;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .nav-content {
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding: 14px 16px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-content a p {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    /*---------------------------intro---------------------------*/
+    .intro-content {
+        margin: 0;
+    }
+
+    .text-deve {
+        display: inline;
+    }
+
+    .front-size {
+        font-size: 3.75rem;
+    }
+
+    .intro-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-section h1 {
+        margin-top: 16px !important;
+    }
+
+    .intro-bottom h1 {
+        display: none;
+    }
+
+    .intro-bottom p:first-child {
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+    /*---------------------------About---------------------------*/
+    .aboutMe-content {
+        margin: 0;
+    }
+
+    .firstp,
+    .secp {
+        font-size: 18px;
+    }
+
+    /*---------------------------Tech---------------------------*/
+    .tech-content {
+        margin: 0;
+    }
+
+    /*---------------------------projects---------------------------*/
+    .projects-content {
+        margin: 0;
+    }
+
+    .projects-list>li {
+        width: 50%;
+    }
+
+    /*---------------------------experience---------------------------*/
+    .experience-content {
+        margin: 0;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1288px) {
+    .nav-content {
+        margin-left: 134px !important;
+        margin-right: 134px !important;
+    }
+    /*---------------------------intro---------------------------*/
+    .intro-content,
+    .aboutMe-content,
+    .tech-content,
+    .projects-content,
+    .experience-content {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .front-size {
+        font-size: 5rem;
+    }
+}
